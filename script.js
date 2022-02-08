@@ -26,7 +26,7 @@ document.querySelector('.check').addEventListener('click', function () {
   // When there is no input
   if (!guess) {
     // document.querySelector('.message').textContent = '⛔️ No number!';
-    displayMessage('⛔️ Nema broja!');
+    displayMessage('⛔️ Unesi broj!');
 
     // When player wins
   } else if (guess === secretNumber) {
@@ -94,15 +94,6 @@ document.querySelector('.again').addEventListener('click', function () {
   document.querySelector('body').style.backgroundColor = '#222';
   document.querySelector('.number').style.width = '15rem';
 });
-
-// ### KEY PRESS ###
-document.addEventListener('keydown', function (e) {
-  // console.log(e.key);
-  if (e.key === 'Enter') {
-    pressing();
-  }
-});
-
 
 ///////////////////////////////////////
 // Coding Challenge #1
