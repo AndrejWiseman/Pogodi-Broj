@@ -235,3 +235,10 @@ h1 {
   }
 
 }  */
+
+
+@media only screen and (max-width: 600px){
+ html {
+   font-size: 40.5%;
+   box-sizing: border-box;
+ }
