@@ -121,7 +121,7 @@ h1 {
 
 
 
-@media only screen and (max-width: 600px){
+/* @media only screen and (max-width: 600px){
   html {
     font-size: 40.5%;
     box-sizing: border-box;
@@ -234,4 +234,4 @@ h1 {
     margin-bottom: 2rem;
   }
 
-}
+}  */
