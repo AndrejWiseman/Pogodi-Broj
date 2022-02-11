@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>BMI Kalkulator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        
+        <div class="sredina">
+           
+            <div class="polje pocetna">
+                <div class="naslov">
+                    <h3>Dobrodošli u BMI kalkulator</h3>
+                    <p>Proveri svoj BMI index</p>
+                </div>
+
+                <div class="polja-za-unos">
+                    <div class="unos1">
+                        <label for="visina">Unesi visinu izraženu u m: </label>
+                        <div class="unos1-1">
+                            <input type="number" id="visina">
+                        </div>
+                    </div>
+
+                    <div class="unos2">
+                        <label for="tezina">Unesi težinu izraženu u kg: </label>
+                        <div class="unos2-2">
+                            <input type="number" id="tezina">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="polje nevidljivo1">
+                <div class="naslov">
+                    <h3>Ovo je polje broj dva</h3>
+                    <p>Proveri svoj BMI index</p>
+                </div>
+
+                <div class="polja-za-unos">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, rerum modi alias reprehenderit dignissimos perspiciatis sint, vitae tempore fugiat aliquid cumque, excepturi tenetur, aspernatur. Distinctio veritatis laudantium odio aliquid, explicabo porro, consectetur blanditiis velit in eos esse? Debitis sed quia, tenetur vero, a neque, possimus esse tempora amet aliquid mollitia.</p>
+                </div>
+            </div>
+            
+            
+            <div class="polje pothranjen">
+                <div class="naslov">
+                    <h3>Vaš BMI je:</h3>
+                    <p class="rezultat"></p>
+                </div>
+
+                <div class="polja-za-unos">
+                    <p><b>Pothranjeni ste.</b> Obratite se svome doktoru kako biste povećali telesnu težinu.
+                    </p>
+                    <p>Vaš rizik za razvoj šećerne bolesti tipa II, povišenog krvnog pritisk i kardiovaskularnih bolesti je NIZAK</p>
+                </div>
+            </div>
+            
+            <div class="polje normalno">
+                <div class="naslov">
+                    <h3>Vaš rezultat je:</h3>
+                    <p class="rezultat"></p>
+                </div>
+
+                <div class="polja-za-unos">
+                    <p><b>Imate normalnu telesnu težinu.</b>Hranite se zdravo te se bavite fizičkom aktivnošću kako biste je održali.</p>
+                    <p>Vaš rizik za razvoj šećerne bolesti tipa II, povišenog krvnog pritiska i kardiovaskularnih bolesti je <b>NIZAK</b>.</p>
+                </div>
+            </div>
+            
+            <div class="polje prekomerno">
+                <div class="naslov">
+                    <h3>Vaš BMI je:</h3>
+                    <p class="rezultat"></p>
+                </div>
+
+                <div class="polja-za-unos">
+                    <p><b>Imate prekomernu telesnu težinu.</b></p>
+                    <p>Obratite se doktoru kako biste je smanjili.</p>
+                    <p>Vaš rizik za razvoj šećerne bolesti tipa II, povišenog krvnog pritiska i kardiovaskularnih bolesti je <b>VISOK</b>.</p>
+                </div>
+            </div>
+            
+            <div class="polje pretili">
+                <div class="naslov">
+                    <h3>Vaš rezultat je:</h3>
+                    <p class="rezultat"></p>
+                </div>
+
+                <div class="polja-za-unos">
+                    <p><b>Pretili ste!</b> Obratite se lečniku kako biste smanjili telesnu težinu te rizik za razvoj povezanih bolesti.</p>
+                    <p>Vaš rizik za razvoj šećerne bolesti tipa II, povišenog krvnog pritiska i kardiovaskularnih bolesti je <b>VISOK</b>.</p>
+                </div>
+            </div>
+            
+            <div class="polje izrazito">
+                <div class="naslov">
+                    <h3>Vaš rezultat je:</h3>
+                    <p class="rezultat"></p>
+                </div>
+
+                <div class="polja-za-unos">
+                    <p><b>Izrazito ste izloženi riziku za razvoj bolesti!</b>Obratite se lečniku kako biste smanjili svoju telesnu težinu.</p>
+                    <p>Vaš rizik za razvoj šećerne bolesti tipa II, povišenog krvnog pritiska i kardiovaskularnih bolesti je <b>IZRAZITO VISOK</b>.</p>
+                </div>
+            </div>
+            
+            <div class="polje odgovor">
+                <div class="naslov">
+                    <h3>Šta je BMI?</h3>
+                    <p class="rezultat"></p>
+                </div>
+
+                <div class="polja-za-unos bmi">
+                    <p>BMI - Indeks telesne mase (engl. Body Mass Index) je jedan od načina procene uhranjenosti. Od svih poznatih indeksa, indeks telesne mase je najuže povezan s količinom prekomernog masnog tkiva u ljudskom telu.</p>
+                    <p>Vrednosti preporučenog BMI-a iste su za oba pola, on iznosi od 18,5 – 24,9 kg/m2 prema klasifikaciji Svetske zdravstvene organizacije za europsko stanovništvo.</p>
+                </div>
+            </div>
+           
+            
+            <div class="dugmad">
+                <button class="btn1">Proveri</button>
+                <button class="btn2">Reset</button>
+            </div>
+            
+            
+<!--
+            <div class="upitnik">
+                <button class="pomoc"></button>
+            </div>
+-->
+            
+            
+            <div class="upitnik">
+<!--                 <div class="pomoc"><a href=""><img src="img/upitnik.svg" alt="upitnik"></a></div>-->
+                
+<!--
+                <div class="pomoc"><img src="img/upitnik.svg"         alt="upitnik">
+                </div>
+-->     
+                
+<!--                <button class="pomoc"></button>-->
+                <img src="img/upitnik3.svg" alt="pp" class="pomoc">
+                
+            </div>
+            
+<!--            <img src="img/pitanje2.svg" alt="upitnik">-->
+        </div>
+            
+        
+    <script src="script.js"></script>
+    </body>
+</html>
