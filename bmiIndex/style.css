@@ -2,29 +2,30 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
     font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"
 }
 
 body{
-    
+
     background: #AAE2D5;
     background: -moz-linear-gradient(-45deg, #AAE2D5 0%, #779E98 100%);
     background: -webkit-linear-gradient(-45deg, #AAE2D5 0%, #779E98 100%);
     background: linear-gradient(135deg, #AAE2D5 0%, #779E98 100%);
-    
+
 }
 
 .sredina{
     background-color: #bce08a;
-    max-width: 370px;
+    /* max-width: 370px; */
+    max-width: 80vw;
     height: 80vh;
     margin: 50px auto;
     border-radius: 10px;
-    -webkit-box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.56); 
+    -webkit-box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.56);
     box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.56);
-    
-    
+
+
 /*    visibility: none;*/
 }
 
@@ -36,7 +37,7 @@ body{
     text-align: center;
     padding: 50px;
     color: #569099;
-    
+
 }
 
 .rezultat {
@@ -102,7 +103,7 @@ input[type=number] {
     justify-content: space-around;
 /*    border: 1px solid red;*/
 /*    position: relative;*/
-    
+
 }
 
 .btn1, .btn2 {
@@ -116,11 +117,11 @@ input[type=number] {
     font-weight: 600;
     text-transform: uppercase;
     cursor: pointer;
-   
+
 /*    position: inherit;*/
-    
-    
-    
+
+
+
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
@@ -137,7 +138,7 @@ input[type=number] {
 .hidden{
 
     display: none;
-    
+
     position: absolute;
     top: 0%;
     left: 50vw;
@@ -146,26 +147,26 @@ input[type=number] {
 
     margin: 50px auto;
     z-index: 10;
-    
+
     background-color: #bce08a;
     max-width: 370px;
     height: 80vh;
-    
+
     border-radius: 10px;
-    -webkit-box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.56); 
+    -webkit-box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.56);
     box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.56);
-    
-    
-    
+
+
+
 /*    visibility: visible;*/
 }
 
 
 .polje {
 /*    display: none;*/
-    
+
 /*    visibility: hidden;*/
-    
+
 /*    margin-bottom: 40px;*/
 }
 
@@ -175,10 +176,10 @@ input[type=number] {
 }
 
 .nevidljivo1 {
-    
+
     display: none;
 
-    
+
 }
 
 .nevidljivo2{
@@ -216,7 +217,7 @@ input[type=number] {
     border: 1px solid red;
     width: 30px;
     height: 30px;
-    
+
     color: red;
 }
 */
@@ -236,80 +237,8 @@ input[type=number] {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media only screen and (min-width: 600px){
+    .sredina{
+        max-width: 400px;
+    }
+}
