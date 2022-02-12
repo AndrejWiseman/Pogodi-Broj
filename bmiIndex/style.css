@@ -9,9 +9,9 @@
 body{
 
     background: #AAE2D5;
-    background: -moz-linear-gradient(-45deg, #AAE2D5 0%, #779E98 100%);
+    /* background: -moz-linear-gradient(-45deg, #AAE2D5 0%, #779E98 100%);
     background: -webkit-linear-gradient(-45deg, #AAE2D5 0%, #779E98 100%);
-    background: linear-gradient(135deg, #AAE2D5 0%, #779E98 100%);
+    background: linear-gradient(135deg, #AAE2D5 0%, #779E98 100%); */
 
 }
 
@@ -19,7 +19,7 @@ body{
     background-color: #bce08a;
     /* max-width: 370px; */
     max-width: 80vw;
-    /* height: 80vh; */
+    height: 80%;
     margin: 50px auto;
     border-radius: 10px;
     -webkit-box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.56);
@@ -240,5 +240,6 @@ input[type=number] {
 @media only screen and (min-width: 600px){
     .sredina{
         max-width: 400px;
+        height: 80vh;
     }
 }
