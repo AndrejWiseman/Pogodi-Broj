@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
 * {
   margin: 0;
   padding: 0;
@@ -5,75 +8,57 @@
 }
 
 html {
-  /* height: 100vh; /* Fallback for browsers that do not support Custom Properties */
-  /* height: calc(var(--vh, 1vh) * 100); */
-
-  /* max-height: -webkit-fill-available; */
-
-
     height: 100vh; /* Use vh as a fallback for browsers that do not support Custom Properties */
     height: calc(var(--vh, 1vh) * 100);
-    /* margin: 0 auto; */
-    /* max-width: 80%; */
-
 
 }
 
 body {
   background-color: #AAE2D5;
-  /* height: 100vh; */
   border: 1px solid purple;
-
-  /* min-height: 100vh; */
-  /* max-height: -webkit-fill-available; */
-
-
-  /* height: 100vh; /* Use vh as a fallback for browsers that do not support Custom Properties */
-    /* height: calc(var(--vh, 1vh) * 100); */
-    /* margin: 0 auto; */
-    /* max-width: 80%; */
-
-
+  font-family: 'Montserrat', sans-serif;
 }
 
 
 .sredina {
   background-color: skyblue;
-  width: 80%;
-  /* height: 80vh; */
+  width: 85%;
   margin: 40px auto 0 auto;
-
+  padding: 0 20px;
   border-radius: 10px;
   -webkit-box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.56);
   box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.56);
-
-  /* height: -webkit-fill-available; */
-
-
-
-  /* height: 100vh; /* Use vh as a fallback for browsers that do not support Custom Properties */
-    /* height: calc(var(--vh, 1vh) * 100); */
-    /* margin: 0 auto; */
-    /* max-width: 80%; */
 
 }
 
 .naslov {
   border-top: 1px solid blue;
   text-align: center;
-  padding: 40px 0;
+  padding: 40px 0px;
+
+  font-size: smaller;
 }
 
+.veliki {
+  /* padding: 10px; */
+}
 
 
 .info {
   border: 1px solid red;
   height: 40vh;
+  font-size:smaller;
 }
 
 .pocetna input {
-  width: 60px;
+  width: 40px;
   padding:5px;
+}
+
+.pocetna label{
+  /* font-size:smaller; */
+  font-weight: bold;
+  font-size: 0.9em;
 }
 
 /*#### sakrivanje scroll u inputu*/
@@ -98,6 +83,9 @@ input[type=number] {
   padding: 30px
 }
 
+.odgovor {
+  display: none;
+}
 
 
 
@@ -109,14 +97,36 @@ input[type=number] {
 
 
 
-.dugmad {
+
+.tasteri {
   justify-content: space-around;
   display: flex;
   border: 1px solid yellow;
   padding-top:40px;
-  padding-bottom:40px;
+  padding-bottom:30px;
 }
 
 .btn1, .btn2 {
-  padding: 8px 20px;
+  /* padding: 5px 30px; */
+  /* border-radius: 20px; */
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+  padding: 6px 30px;
+  /* margin-top: 50px; */
+  color: #569099;
+  background-color: #AAE2D5;
+  border: none;
+  border-radius: 10px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+
+.upitnik {
+  display: flex;
+  justify-content: flex-end;
+
+  padding: 10px;
 }
