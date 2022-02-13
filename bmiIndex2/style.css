@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+  /* height: calc(var(--vh, 1vh) * 100); */
+
+  /* max-height: -webkit-fill-available; */
+
+
+    height: 100vh; /* Use vh as a fallback for browsers that do not support Custom Properties */
+    height: calc(var(--vh, 1vh) * 100);
+    /* margin: 0 auto; */
+    /* max-width: 80%; */
+
+
+}
+
+body {
+  background-color: #AAE2D5;
+  /* height: 100vh; */
+  border: 1px solid purple;
+
+  /* min-height: 100vh; */
+  /* max-height: -webkit-fill-available; */
+
+
+  /* height: 100vh; /* Use vh as a fallback for browsers that do not support Custom Properties */
+    /* height: calc(var(--vh, 1vh) * 100); */
+    /* margin: 0 auto; */
+    /* max-width: 80%; */
+
+
+}
+
+
+.sredina {
+  background-color: skyblue;
+  width: 80%;
+  /* height: 80vh; */
+  margin: 40px auto 0 auto;
+
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.56);
+  box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.56);
+
+  /* height: -webkit-fill-available; */
+
+
+
+  /* height: 100vh; /* Use vh as a fallback for browsers that do not support Custom Properties */
+    /* height: calc(var(--vh, 1vh) * 100); */
+    /* margin: 0 auto; */
+    /* max-width: 80%; */
+
+}
+
+.naslov {
+  border-top: 1px solid blue;
+  text-align: center;
+  padding: 40px 0;
+}
+
+
+
+.info {
+  border: 1px solid red;
+  height: 40vh;
+}
+
+.pocetna input {
+  width: 60px;
+  padding:5px;
+}
+
+/*#### sakrivanje scroll u inputu*/
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+/*###*/
+
+
+
+.visina, .tezina {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.dugmad {
+  justify-content: space-around;
+  display: flex;
+  border: 1px solid yellow;
+  padding-top:40px;
+  padding-bottom:40px;
+}
+
+.btn1, .btn2 {
+  padding: 8px 20px;
+}

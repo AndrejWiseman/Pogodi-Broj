@@ -9,7 +9,7 @@ let stisak1 = document.querySelector('.btn1');
 
 
 //stisak1.addEventListener('click', function(){
-//    
+//
 //    let visina = document.getElementById('visina').value;
 ////    let decimalni = visina.indexOf('.');
 //    if (visina != parseFloat(visina) ){
@@ -39,18 +39,25 @@ let stisak1 = document.querySelector('.btn1');
 //    } else {
 //        alert('Nije u metrima')
 //    }
-//            
+//
 //})
+
+// First we get the viewport height and we multiple it by 1% to get a value for a vh unit
+let vh = window.innerHeight * 0.01;
+// Then we set the value in the --vh custom property to the root of the document
+document.documentElement.style.setProperty('--vh', `${vh}px`);
+
+
 
 
 
 stisak1.addEventListener('click', function(){
-    
+
     let visina = document.getElementById('visina').value;
     let tezina = document.getElementById('tezina').value;
-    
+
     let bmi = (tezina / (visina * visina)).toFixed(1);
-    
+
     if (bmi <= 18.5){
         document.querySelector('.pocetna').innerHTML = polje1;
         document.querySelector('.rezultat').innerHTML = `${bmi}`;
@@ -79,12 +86,12 @@ let faq = document.querySelector('.odgovor').innerHTML;
 let upitnik = document.querySelector('.upitnik');
 
 stisak2.addEventListener('click', function(){
-    
+
     document.querySelector('.pocetna').innerHTML = pocetna1;
-    
+
 //    document.querySelector('.dugmad').style.paddingTop = 90;
 //    document.querySelector('.dugmad').style.marginTop = 90;
-        
+
 })
 
 upitnik.addEventListener('click', function(){
@@ -146,12 +153,12 @@ upitnik.addEventListener('click', function(){
 
 
 //stisak1.addEventListener('click', function(){
-//    
+//
 //    let visina = document.getElementById('visina').value;
 //    let tezina = document.getElementById('tezina').value;
-//    
+//
 //    let bmi = (tezina / (visina * visina)).toFixed(1);
-//    
+//
 //    if (bmi <= 18.5){
 //        document.querySelector('.pocetna').innerHTML = polje1;
 //        document.querySelector('.rezultat').innerHTML = `${bmi}`;
@@ -171,13 +178,3 @@ upitnik.addEventListener('click', function(){
 //        alert('Nije dobar broooj!')
 //    }
 //})
-
-
-
-
-
-
-
-
-
-
